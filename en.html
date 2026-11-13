@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kakapoted Studio — video editing software</title>
+<meta name="description" content="Kakapoted Studio: video editing software for Windows. Lifetime license, no subscription. Animated captions, beat-synced editing, effects, 4K export.">
+<link rel="icon" href="favicon.png">
+<link rel="alternate" hreflang="en" href="https://chypeurr.github.io/en.html">
+<link rel="alternate" hreflang="fr" href="https://chypeurr.github.io/">
+<style>
+  :root { --bg:#0f1110; --panel:#171a18; --line:#262a27; --text:#e9ece9; --muted:#9aa29b; --accent:#74b546; --accent2:#8fd05d; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  a { color:var(--accent2); }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 20px; }
+  header { padding:22px 0; display:flex; align-items:center; gap:12px; }
+  header img { width:36px; height:36px; }
+  header b { font-size:18px; letter-spacing:.2px; }
+  header nav { margin-left:auto; display:flex; gap:20px; font-size:14px; }
+  header nav a { color:var(--muted); text-decoration:none; }
+  header nav a:hover { color:var(--text); }
+  .lang { margin-left:auto; display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); border-radius:999px; padding:4px 12px; font-size:13.5px; color:var(--muted); text-decoration:none; }
+  .lang img { width:20px; height:auto; border-radius:2px; box-shadow:0 0 0 1px rgba(255,255,255,.15); }
+  .lang:hover { color:var(--text); border-color:var(--accent); }
+  header nav + .lang { margin-left:18px; }
+  .wrap.wide { max-width:1240px; }
+  .hero { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr); gap:30px; align-items:center; padding:40px 0 70px; min-height:620px; }
+  .hero-text img.logo { width:84px; height:84px; }
+  h1 { font-size:clamp(34px,4vw,52px); line-height:1.08; margin:18px 0 16px; letter-spacing:-1px; }
+  .hero-text p { color:var(--muted); font-size:clamp(17px,1.6vw,19px); margin:0; max-width:520px; }
+  .badges { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }
+  .badge { border:1px solid var(--line); background:var(--panel); border-radius:999px; padding:5px 12px; font-size:13.5px; color:var(--muted); }
+  .badge b { color:var(--accent2); font-weight:600; }
+  .cta { margin-top:30px; }
+  .btn-dl { display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#0b1408; font-weight:700; font-size:17px; padding:14px 22px; border-radius:12px; text-decoration:none; box-shadow:0 8px 30px rgba(116,181,70,.25); transition:transform .15s, background .15s; }
+  .btn-dl:hover { background:var(--accent2); transform:translateY(-1px); }
+  .btn-dl svg { width:20px; height:20px; }
+  .cta small { display:block; color:var(--muted); margin-top:10px; font-size:13.5px; }
+  /* Captures en perspective qui défilent */
+  .stage { position:relative; height:640px; perspective:1400px; overflow:hidden;
+    -webkit-mask-image:linear-gradient(to bottom,transparent,#000 14%,#000 86%,transparent); mask-image:linear-gradient(to bottom,transparent,#000 14%,#000 86%,transparent); }
+  .tilt { position:absolute; top:-30%; bottom:-30%; left:0; right:-30%; display:flex; gap:22px; transform:rotateY(-22deg) rotateX(12deg) rotateZ(5deg); transform-style:preserve-3d; }
+  .col { flex:1; min-width:0; display:flex; flex-direction:column; gap:18px; animation:up 46s linear infinite; }
+  .col.b { animation-duration:58s; animation-direction:reverse; margin-top:-140px; }
+  .col img { width:100%; display:block; border-radius:10px; border:1px solid #2c312d; box-shadow:0 18px 50px rgba(0,0,0,.55); }
+  @keyframes up { from { transform:translateY(0); } to { transform:translateY(-50%); } }
+  @media (prefers-reduced-motion:reduce) { .col { animation:none; } }
+  @media (max-width:900px) {
+    .hero { grid-template-columns:1fr; min-height:0; padding:28px 0 40px; gap:26px; }
+    .stage { height:380px; }
+    .tilt { left:-6%; right:-40%; }
+  }
+  section { padding:50px 0; border-top:1px solid var(--line); }
+  h2 { font-size:28px; margin:0 0 8px; letter-spacing:-.4px; }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:18px; }
+  .card h3 { margin:0 0 6px; font-size:16px; }
+  .card p { margin:0; color:var(--muted); font-size:14.5px; }
+  .card .dot { width:8px; height:8px; border-radius:50%; background:var(--accent); display:inline-block; margin-right:8px; vertical-align:middle; }
+  .price { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
+  .plan { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:24px; }
+  .plan.main { border-color:var(--accent); }
+  .plan .amount { font-size:40px; font-weight:700; margin:6px 0; }
+  .plan ul { padding-left:18px; color:var(--muted); margin:10px 0 0; }
+  .plan li { margin:4px 0; }
+  .legal p, .legal li { color:var(--muted); font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:26px 0 40px; color:var(--muted); font-size:14px; }
+  @media (max-width:560px) { header nav { display:none; } }
+</style>
+</head>
+<body>
+<div class="wrap wide">
+  <header>
+    <img src="logo.png" alt="">
+    <b>Kakapoted Studio</b>
+    <nav><a href="#fonctions">Features</a><a href="#prix">Pricing</a><a href="#conditions">Terms</a></nav>
+    <a class="lang" href="./" hreflang="fr" lang="fr"><img src="flag-fr.svg" alt="" width="20" height="13">Français</a>
+  </header>
+
+  <div class="hero">
+    <div class="hero-text">
+      <img class="logo" src="logo.png" alt="Kakapoted Studio logo">
+      <h1>Pro video<br>editing, no<br>subscription.</h1>
+      <p>Kakapoted Studio is a video editor for Windows. Animated captions, editing synced to the music, effects and transitions: everything is included, forever.</p>
+      <div class="badges">
+        <span class="badge"><b>Windows</b> 10 and 11</span>
+        <span class="badge"><b>Lifetime license</b> — pay once</span>
+        <span class="badge"><b>Offline</b> — your videos stay on your PC</span>
+      </div>
+      <div class="cta">
+        <a class="btn-dl" href="telecharger/Kakapoted-Studio-0.16.0-Setup-x64.exe" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Download the free trial
+        </a>
+        <small>Free · all features · Windows 10/11 64-bit · 57 MB</small>
+      </div>
+    </div>
+    <div class="stage" aria-label="Interface preview">
+      <div class="tilt">
+        <div class="col"><img src="images/01-montage.jpg" alt="Editing on the timeline"><img src="images/03-couleur.jpg" alt="Color workspace"><img src="images/05-sous-titres.jpg" alt="Animated captions"><img src="images/07-export.jpg" alt="Export"><img src="images/01-montage.jpg" aria-hidden="true" alt="Editing on the timeline"><img src="images/03-couleur.jpg" aria-hidden="true" alt="Color workspace"><img src="images/05-sous-titres.jpg" aria-hidden="true" alt="Animated captions"><img src="images/07-export.jpg" aria-hidden="true" alt="Export"></div>
+        <div class="col b"><img src="images/02-effets.jpg" alt="Creator Pack effects"><img src="images/04-audio.jpg" alt="Audio workspace"><img src="images/06-plugins.jpg" alt="Plugins"><img src="images/01-montage.jpg" alt="Editing on the timeline"><img src="images/02-effets.jpg" aria-hidden="true" alt="Creator Pack effects"><img src="images/04-audio.jpg" aria-hidden="true" alt="Audio workspace"><img src="images/06-plugins.jpg" aria-hidden="true" alt="Plugins"><img src="images/01-montage.jpg" aria-hidden="true" alt="Editing on the timeline"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="fonctions">
+  <div class="wrap">
+    <h2>What you can do</h2>
+    <p class="sub">Professional tools, designed to go fast.</p>
+    <div class="grid">
+      <div class="card"><h3><span class="dot"></span>Animated auto captions</h3><p>The software listens to the voice and writes captions word by word, in TikTok-style looks. On your computer, nothing is uploaded.</p></div>
+      <div class="card"><h3><span class="dot"></span>Beat sync</h3><p>The music beats are detected: cuts, transitions, zoom punches and flashes land right on the beat.</p></div>
+      <div class="card"><h3><span class="dot"></span>Effects and transitions</h3><p>Creator Pack included: camera, light, particle and glitch effects, text animations. Nothing gets locked behind a paywall.</p></div>
+      <div class="card"><h3><span class="dot"></span>Motion blur</h3><p>A cinematic look on animated and filmed motion, identical in the preview and the export.</p></div>
+      <div class="card"><h3><span class="dot"></span>Color and audio</h3><p>Color wheels, LUTs, scopes; mixer, equalizer, one-click voice cleanup, final loudness for YouTube.</p></div>
+      <div class="card"><h3><span class="dot"></span>AI on your PC</h3><p>Background removal without a green screen, automatic vertical reframing, silence removal, caption translation.</p></div>
+      <div class="card"><h3><span class="dot"></span>Pro timeline</h3><p>Unlimited tracks, multicam, speed ramps, motion tracking, animation curves, keyboard shortcuts.</p></div>
+      <div class="card"><h3><span class="dot"></span>Fast export</h3><p>Up to 4K and HDR, GPU acceleration, YouTube, TikTok and Instagram presets, target file size.</p></div>
+      <div class="card"><h3><span class="dot"></span>Plugins</h3><p>Add effects, transitions and styles made by the community, with complete documentation to create your own.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="prix">
+  <div class="wrap">
+    <h2>Pricing</h2>
+    <p class="sub">Try everything for free. Buy only if you like it.</p>
+    <div class="price">
+      <div class="plan">
+        <h3>Free trial</h3>
+        <div class="amount">€0</div>
+        <ul><li>All features</li><li>No time limit</li><li>Small watermark on exported videos</li></ul>
+      </div>
+      <div class="plan main">
+        <h3>Lifetime license</h3>
+        <div class="amount">€14.99</div>
+        <ul><li>One-time payment, no subscription</li><li>No watermark</li><li>Updates included</li><li>Activate with the key you receive by email (Help menu)</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="conditions" class="legal">
+  <div class="wrap">
+    <h2>Terms of sale</h2>
+    <p>Payment is handled by Lemon Squeezy, the official reseller (Merchant of Record): it processes the payment, handles VAT and sends the invoice and the license key by email.</p>
+    <ul>
+      <li><b>Refunds:</b> refunded on request within 14 days of purchase. The refunded license is then deactivated.</li>
+      <li><b>License:</b> personal, for use on the buyer's computers. It must not be shared or resold.</li>
+      <li><b>Privacy:</b> the software works offline. Your videos and projects are never uploaded. Only the license key is checked online at activation, then occasionally.</li>
+      <li><b>Requirements:</b> Windows 10 or 11, 64-bit. 8 GB of RAM recommended.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Kakapoted · Kakapoted Studio uses FFmpeg (GPL v3).</div>
+</footer>
+</body>
+</html>
