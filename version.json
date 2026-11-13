@@ -1,8 +1,8 @@
 {
-  "version": "0.19.1",
+  "version": "0.20.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Mises à jour : au démarrage, le logiciel vérifie s'il existe une nouvelle version et la propose (nouveautés\n  et bouton Télécharger) ; aussi dans Aide > « Vérifier les mises à jour ». Désactivable dans les Paramètres.",
-    "en": "Kakapoted Studio 0.19.1 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Bords collés exactement : un clip aimanté sur le bord d'un autre (autre piste, son, temps de musique) s'y aligne\n  au millième ; avant, il pouvait rester une demi-image à côté.\n- Bouton « Exporter » toujours visible en haut à droite.\n- Format de la vidéo en plein projet : bouton « 16:9 » au-dessus de l'aperçu (16:9, 9:16, 1:1, 4:5, 4:3, 3:4, 21:9) ;\n  les clips ajustés ou remplis le restent, les positions gardent leur place dans l'image.",
+    "en": "Kakapoted Studio 0.20.0 is available. See what's new and download it on chypeurr.github.io."
   }
 }
