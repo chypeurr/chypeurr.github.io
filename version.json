@@ -1,14 +1,14 @@
 {
-  "version": "0.22.0",
+  "version": "0.23.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Mise à jour en un clic : quand une nouvelle version sort, une petite carte apparaît en bas à droite (plus de\n  fenêtre qui bloque). « Installer » télécharge la mise à jour (barre de progression), vérifie qu'elle vient bien de\n  l'éditeur, enregistre ou non le projet, puis le logiciel se ferme, s'installe sans fenêtre et se relance tout seul.\n  « Nouveautés » affiche le détail. Aucun droit administrateur ni avertissement Windows.\n- Fichier téléchargé incomplet, modifié ou non signé : installation annulée, avec un lien vers le site.\n- Version portable : le bouton ouvre la page de téléchargement, comme avant.",
-    "en": "Kakapoted Studio 0.22.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Séquences imbriquées transparentes : là où elles sont vides, on voit ce qui est dessous (avant : fond noir).\n- Dé-imbriquer (clic droit sur une séquence imbriquée, ou menu Clip) : ses clips reviennent dans la timeline, aux\n  mêmes instants, sans rien écraser.\n- Aperçu : cliquer dans la boîte du plan sélectionné déplace toujours ce plan, même si un autre est au-dessus.\n- Ajouter un média dans la timeline n'écrase plus rien : s'il y a déjà un clip à cet endroit, le média va sur la\n  piste libre suivante (créée au besoin). Le mode « Insérer » décale toujours les clips ; « Écraser » reste au moniteur\n  source. Créer une séquence imbriquée n'écrase plus non plus les clips voisins.\n- Nouvelle séquence : 3 pistes vidéo et 3 pistes audio vides (au lieu de copier toutes les pistes de la séquence en cours).\n- Rognage et déplacement dans la timeline plus fluides (un calcul par image affichée).\n- Licences : une clé obtenue en mode test de Lemon Squeezy (carte de test) est refusée, à l'activation comme à la\n  vérification hebdomadaire.",
+    "en": "Kakapoted Studio 0.23.0 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.22.0-Setup-x64.exe",
-    "size": 64560727,
-    "sha256": "957e7a71642916e8f53b7644fb02676185d1fe1ce784bb159ee481705210eaad",
-    "sig": "32c161ced7b8f880113d7f9a049d14d3a8159cfa310ba454f9487400d6ae5a888875d8b85ac734f06c49986e68b2be6ab399cf768a4c61d9b5a7a0d52cc7dd00"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.23.0-Setup-x64.exe",
+    "size": 64546698,
+    "sha256": "9ddc4ce348bef319ed5cbddc360bd4898389f8b3afa9d6d2fea9503b7c14de6e",
+    "sig": "902b8865054bdc341ae532a7000ea904c147f86f7ab928cdfd261047ce04987b097818e534a638a04d3a5a6a68e6d92f0097c2a2f5cb3aecc187ca2167e0760b"
   }
 }
