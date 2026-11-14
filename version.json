@@ -1,14 +1,14 @@
 {
-  "version": "0.23.0",
+  "version": "0.23.1",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Séquences imbriquées transparentes : là où elles sont vides, on voit ce qui est dessous (avant : fond noir).\n- Dé-imbriquer (clic droit sur une séquence imbriquée, ou menu Clip) : ses clips reviennent dans la timeline, aux\n  mêmes instants, sans rien écraser.\n- Aperçu : cliquer dans la boîte du plan sélectionné déplace toujours ce plan, même si un autre est au-dessus.\n- Ajouter un média dans la timeline n'écrase plus rien : s'il y a déjà un clip à cet endroit, le média va sur la\n  piste libre suivante (créée au besoin). Le mode « Insérer » décale toujours les clips ; « Écraser » reste au moniteur\n  source. Créer une séquence imbriquée n'écrase plus non plus les clips voisins.\n- Nouvelle séquence : 3 pistes vidéo et 3 pistes audio vides (au lieu de copier toutes les pistes de la séquence en cours).\n- Rognage et déplacement dans la timeline plus fluides (un calcul par image affichée).\n- Licences : une clé obtenue en mode test de Lemon Squeezy (carte de test) est refusée, à l'activation comme à la\n  vérification hebdomadaire.",
-    "en": "Kakapoted Studio 0.23.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Coller (Ctrl+V) va sur la piste sous la souris et n'écrase plus rien : si la place est prise, le clip va sur la\n  piste libre suivante (créée au besoin).\n- Aperçu : une vidéo placée dans une séquence imbriquée s'affiche et bouge (avant : figée sur sa première image,\n  souvent noire, quand on regardait depuis la séquence du dessus).\n- Aperçu : un plan animé ne se téléporte plus quand on le déplace, l'agrandit ou le tourne : le geste part de la\n  position affichée à la tête de lecture (images clés comprises), plus de la valeur de départ.",
+    "en": "Kakapoted Studio 0.23.1 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.23.0-Setup-x64.exe",
-    "size": 64546698,
-    "sha256": "9ddc4ce348bef319ed5cbddc360bd4898389f8b3afa9d6d2fea9503b7c14de6e",
-    "sig": "902b8865054bdc341ae532a7000ea904c147f86f7ab928cdfd261047ce04987b097818e534a638a04d3a5a6a68e6d92f0097c2a2f5cb3aecc187ca2167e0760b"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.23.1-Setup-x64.exe",
+    "size": 64577110,
+    "sha256": "859d3d796980e0a01d3c2e3e03e6ba67b5306e28d53c2bd221e69a25b69e07d6",
+    "sig": "0611b3f53bf7c211f7e070eab4673253549aae26c150c1a47fa45f3888b0475bd0e856d7484b23d76efed2f9acb43a279115c2ebaa2e3f520097f735bb52dd0d"
   }
 }
