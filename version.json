@@ -1,8 +1,8 @@
 {
-  "version": "0.20.0",
+  "version": "0.21.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Bords collés exactement : un clip aimanté sur le bord d'un autre (autre piste, son, temps de musique) s'y aligne\n  au millième ; avant, il pouvait rester une demi-image à côté.\n- Bouton « Exporter » toujours visible en haut à droite.\n- Format de la vidéo en plein projet : bouton « 16:9 » au-dessus de l'aperçu (16:9, 9:16, 1:1, 4:5, 4:3, 3:4, 21:9) ;\n  les clips ajustés ou remplis le restent, les positions gardent leur place dans l'image.",
-    "en": "Kakapoted Studio 0.20.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Corriger une seule couleur (espace Couleur) : « Couleurs une par une » (teinte, saturation, luminosité des rouges,\n  verts, bleus… séparément) et « Corriger une seule couleur » (pipette sur l'image, largeur et douceur, voir la\n  sélection, inverser). Identique à l'aperçu et à l'export.\n- Calque masque (Inspecteur > Masques) : le clip de la piste juste au-dessus découpe celui-ci, par sa forme ou sa\n  clarté, éventuellement inversé ; par exemple un texte rempli par la vidéo.\n- De-esser (effets audio) : atténue les « s » qui sifflent dans une voix.\n- Ligne de volume sur les clips audio : glisser la ligne pour le volume, Ctrl+clic pour ajouter un point, glisser\n  un point, Alt+clic pour le retirer.\n- Licences : fichier LICENCES-TIERS.txt (auteurs et licences des composants) dans le dossier d'installation ; code\n  source de FFmpeg sur chypeurr.github.io/sources.",
+    "en": "Kakapoted Studio 0.21.0 is available. See what's new and download it on chypeurr.github.io."
   }
 }
