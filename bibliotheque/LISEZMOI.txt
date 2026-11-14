@@ -1,0 +1,3 @@
+Bibliothèque de sons de Kakapoted Studio (téléchargée à la demande par le logiciel).
+Sons : SFX Kit de Wyzowl — https://github.com/wyzowl/sfx-kit — licence CC0 1.0 (domaine public, aucune attribution requise).
+Fabriquée par scripts/library-build.mjs (dépôt du logiciel).
