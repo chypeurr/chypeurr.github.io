@@ -1,14 +1,14 @@
 {
-  "version": "0.28.0",
+  "version": "0.29.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Nouveau look « atelier » : gris neutres sur fond presque noir, séparations fines, boutons avec un léger effet\n  de vitre, fenêtres et menus dans le même style. De loin ça a l'air technique, une fois dedans tout est à sa place.\n- Une couleur par catégorie, partout la même : vidéo bleu, son vert, texte jaune, effets violet, formes rose,\n  caméra cyan, IA orange (clips de la timeline, onglets, en-têtes de l'inspecteur, losanges d'images clés, outils).\n- Panneaux libres : chaque panneau s'attrape par son onglet et se dépose sur un autre (onglet) ou sur un bord\n  (il s'ancre à côté) ; les séparateurs se tirent. La disposition est gardée pour chaque espace de travail.\n  Bouton Disposition : Montage, Motion design, Grand aperçu, « Enregistrer ma disposition », afficher un panneau,\n  réinitialiser.\n- Barre d'outils : Couper, Texte, Formes, Effets, Transitions, Sous-titres, Caméra, Claude.\n- Panneau Scène : la liste de tous les objets de la séquence avec leur type et leur couleur ; un clic sélectionne,\n  l'œil masque ou affiche, recherche et filtre « sous la tête de lecture ».\n- Roues de couleur refaites : toutes les nuances, repères, anneau de luminosité, valeurs R / V / B / L colorées.\n- Plus aucun émoji dans le logiciel : des icônes à la place.",
-    "en": "Kakapoted Studio 0.28.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Tracer une forme, enfin évident : un clic sur « Cercle » (ou Formes dans la barre d'outils) puis on dessine\n  la forme dans l'aperçu en cliquant-glissant, là où on veut et à la taille voulue ; Maj = rond ou carré parfait\n  (ligne : angle par pas de 15°), un simple clic la pose à sa taille, Échap annule. Marche aussi en vue d'ensemble\n  et avec la caméra virtuelle. Le double-clic pose toujours la forme au centre.\n- Vue d'ensemble de la scène : les éléments des séquences imbriquées placés hors de leur cadre sont visibles.\n- Espace Couleur : les séquences imbriquées s'étalonnent comme les clips (galerie, roues, réglages,\n  « Appliquer à tous les plans »).\n- Onglet ouvert entouré de vert ; les 6 points (poignée pour déplacer le panneau) n'apparaissent que sur l'onglet\n  ouvert, et la main seulement sur eux ; les sous-onglets (Projet / Générateurs…) ne disparaissent plus quand on\n  fait défiler ; ronds des curseurs plus petits, trait rempli jusqu'au rond ; barre de défilement des onglets de\n  séquences comme celle de la timeline.",
+    "en": "Kakapoted Studio 0.29.0 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.28.0-Setup-x64.exe",
-    "size": 84748657,
-    "sha256": "d87039dc225845fb93d9d87989e6c5b64824c1f2afd3504d065ab3643119a756",
-    "sig": "94642281205f16e5c7606887618abc334bcfc747bcb99d2798b160535cb39d708e49d96d3abb3430abbc864f5c13bfd12c1acc4c0d7291312c965c1729070102"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.29.0-Setup-x64.exe",
+    "size": 84719959,
+    "sha256": "33deec1b48c6f7cd4b6ce71f88d42a94fdc695c621aa8d41e739a97c6405b963",
+    "sig": "a0ed4d1f863fff69085fe0a29795841e3c8dde3fc1fd3a40c44de1184fc3537547ba137ead84b7fd18dd391741d4eb924a45196c9dcf597f6f07382d50d96704"
   }
 }
