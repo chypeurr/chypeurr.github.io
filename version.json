@@ -1,14 +1,14 @@
 {
-  "version": "0.27.0",
+  "version": "0.28.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Formes animées (Médias > Générateurs) : rectangle aux coins arrondis (qui s'étire sans se déformer : un rond\n  devient une barre), cercle, polygone / étoile, ligne / flèche. Couleur, contour, taille, coins, tout s'anime.\n- Tracé qui se dessine : la forme apparaît trait par trait (« Fin du tracé » de 0 à 100 %), ou tourne comme un\n  chargement (« Décalage »).\n- Icônes : 1 720 icônes libres (Lucide), recherche en français ou en anglais (« loupe », « cœur », « fusée »…),\n  qui peuvent aussi se dessiner trait par trait.\n- Morphing : un rond se transforme progressivement en carré ou en étoile.\n- Animations en un clic : entrée, sortie et accent (pop, rebond, élastique, glisse, tourbillon, pulsation,\n  secousse, saut, gélatine), posées en images clés modifiables ; répétition en boucle ou en aller-retour.\n- Tremblement doux (effet de mouvement) : position, rotation, échelle et fréquence réglables.\n- Objet pilote et parentage : un objet peut en suivre un autre (Transformation > Parent) sans sauter ; l'objet\n  pilote est invisible dans la vidéo exportée.\n- Caméra virtuelle : la scène peut être bien plus grande que l'écran ; on place ses éléments partout puis la\n  caméra voyage d'un plan à l'autre sans coupe (fluide ou « coup de fouet »), avec flou de mouvement automatique,\n  profondeur par piste (parallaxe : le décor bouge moins, les titres restent fixes), « Cadrer sur… » un objet, et une\n  vue d'ensemble de la scène avec le cadre de la caméra.\n- Claude sait faire tout cela (formes, icônes, animations, parentage, caméra) et propose une consigne\n  « Explication animée ».",
-    "en": "Kakapoted Studio 0.27.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Nouveau look « atelier » : gris neutres sur fond presque noir, séparations fines, boutons avec un léger effet\n  de vitre, fenêtres et menus dans le même style. De loin ça a l'air technique, une fois dedans tout est à sa place.\n- Une couleur par catégorie, partout la même : vidéo bleu, son vert, texte jaune, effets violet, formes rose,\n  caméra cyan, IA orange (clips de la timeline, onglets, en-têtes de l'inspecteur, losanges d'images clés, outils).\n- Panneaux libres : chaque panneau s'attrape par son onglet et se dépose sur un autre (onglet) ou sur un bord\n  (il s'ancre à côté) ; les séparateurs se tirent. La disposition est gardée pour chaque espace de travail.\n  Bouton Disposition : Montage, Motion design, Grand aperçu, « Enregistrer ma disposition », afficher un panneau,\n  réinitialiser.\n- Barre d'outils : Couper, Texte, Formes, Effets, Transitions, Sous-titres, Caméra, Claude.\n- Panneau Scène : la liste de tous les objets de la séquence avec leur type et leur couleur ; un clic sélectionne,\n  l'œil masque ou affiche, recherche et filtre « sous la tête de lecture ».\n- Roues de couleur refaites : toutes les nuances, repères, anneau de luminosité, valeurs R / V / B / L colorées.\n- Plus aucun émoji dans le logiciel : des icônes à la place.",
+    "en": "Kakapoted Studio 0.28.0 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.27.0-Setup-x64.exe",
-    "size": 84714626,
-    "sha256": "203076df43890d29cfc95825883f4d448a9cd598e45278235a99e4ba8281f26f",
-    "sig": "82dc00a82254e3b2ddd462e28785882f849cc3d3a9fe091505e141961e6aff2f553e88c53b7c94a53fb9a195df846a0daa4c2d54e59de7bd26fb24841c7d5a0a"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.28.0-Setup-x64.exe",
+    "size": 84748657,
+    "sha256": "d87039dc225845fb93d9d87989e6c5b64824c1f2afd3504d065ab3643119a756",
+    "sig": "94642281205f16e5c7606887618abc334bcfc747bcb99d2798b160535cb39d708e49d96d3abb3430abbc864f5c13bfd12c1acc4c0d7291312c965c1729070102"
   }
 }
