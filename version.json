@@ -1,14 +1,14 @@
 {
-  "version": "0.29.1",
+  "version": "0.30.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Correction (montage par Claude) : les versions récentes de Claude Desktop rangent leurs réglages dans\n  AppData\\Local\\Claude-Data\\… ; « Connecter à Claude Desktop » écrivait seulement aux anciens emplacements, donc\n  Claude ne voyait pas Kakapoted Studio. Le nouvel emplacement est maintenant trouvé, et « Déjà connecté » ne\n  s'affiche plus tant qu'un des fichiers de Claude ne contient pas Kakapoted Studio.",
-    "en": "Kakapoted Studio 0.29.1 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Marionnette (épingles) : effet à ajouter sur n'importe quel clip (image, vidéo, forme, texte). « Poser des\n  épingles », on clique sur l'image (8 au plus), puis on tire une épingle dans l'aperçu : l'image se plie autour,\n  les autres épingles retiennent (bras, cheveux, mascotte qui respire, drapeau…). « Image clé » enregistre la pose\n  pour l'animer ; les épingles suivent le clip quand il bouge ; raideur réglable ; « Remettre droit ».\n- Mots en valeur (Inspecteur d'un texte) : on clique un ou plusieurs mots puis Couleur, Surligner ou Barrer ;\n  « Apparaît ici » fait apparaître l'effet à la tête de lecture (le mot s'allume, le surlignage s'étale, le trait se\n  trace).\n- Fonds animés (Générateurs) : grille qui défile (à plat ou en sol qui fuit vers l'horizon), particules\n  lumineuses qui flottent, confettis qui tombent ; couleur, fond, quantité, vitesse et taille réglables.",
+    "en": "Kakapoted Studio 0.30.0 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.29.1-Setup-x64.exe",
-    "size": 84742214,
-    "sha256": "820eb3f19f9391a443f6c86e86755da12bbe6e64ebd8f4d63444e502a2e121e7",
-    "sig": "23671df3aa97535438e3ae446c92ebe9e5c94da11b78edce4014a844607b7824733498b5205a007a46ce89d7064f307a35753bc7522245138cf7d96b1808950c"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.0-Setup-x64.exe",
+    "size": 84742260,
+    "sha256": "c96bccbd9d50ad1ee7e9f707bb0b0a68f8d3a096929d7b9cc594fc97dd49f8b1",
+    "sig": "adc499f0ad1194d92192bb9caeb8aa25445872901a6d84c7a9f81d396f68b8d097d9ba64de6d914ba4c91aabc926931067586031a82ee64078ab361332ffba0a"
   }
 }
