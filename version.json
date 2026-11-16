@@ -1,14 +1,14 @@
 {
-  "version": "0.29.0",
+  "version": "0.29.1",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Tracer une forme, enfin évident : un clic sur « Cercle » (ou Formes dans la barre d'outils) puis on dessine\n  la forme dans l'aperçu en cliquant-glissant, là où on veut et à la taille voulue ; Maj = rond ou carré parfait\n  (ligne : angle par pas de 15°), un simple clic la pose à sa taille, Échap annule. Marche aussi en vue d'ensemble\n  et avec la caméra virtuelle. Le double-clic pose toujours la forme au centre.\n- Vue d'ensemble de la scène : les éléments des séquences imbriquées placés hors de leur cadre sont visibles.\n- Espace Couleur : les séquences imbriquées s'étalonnent comme les clips (galerie, roues, réglages,\n  « Appliquer à tous les plans »).\n- Onglet ouvert entouré de vert ; les 6 points (poignée pour déplacer le panneau) n'apparaissent que sur l'onglet\n  ouvert, et la main seulement sur eux ; les sous-onglets (Projet / Générateurs…) ne disparaissent plus quand on\n  fait défiler ; ronds des curseurs plus petits, trait rempli jusqu'au rond ; barre de défilement des onglets de\n  séquences comme celle de la timeline.",
-    "en": "Kakapoted Studio 0.29.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Correction (montage par Claude) : les versions récentes de Claude Desktop rangent leurs réglages dans\n  AppData\\Local\\Claude-Data\\… ; « Connecter à Claude Desktop » écrivait seulement aux anciens emplacements, donc\n  Claude ne voyait pas Kakapoted Studio. Le nouvel emplacement est maintenant trouvé, et « Déjà connecté » ne\n  s'affiche plus tant qu'un des fichiers de Claude ne contient pas Kakapoted Studio.",
+    "en": "Kakapoted Studio 0.29.1 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.29.0-Setup-x64.exe",
-    "size": 84719959,
-    "sha256": "33deec1b48c6f7cd4b6ce71f88d42a94fdc695c621aa8d41e739a97c6405b963",
-    "sig": "a0ed4d1f863fff69085fe0a29795841e3c8dde3fc1fd3a40c44de1184fc3537547ba137ead84b7fd18dd391741d4eb924a45196c9dcf597f6f07382d50d96704"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.29.1-Setup-x64.exe",
+    "size": 84742214,
+    "sha256": "820eb3f19f9391a443f6c86e86755da12bbe6e64ebd8f4d63444e502a2e121e7",
+    "sig": "23671df3aa97535438e3ae446c92ebe9e5c94da11b78edce4014a844607b7824733498b5205a007a46ce89d7064f307a35753bc7522245138cf7d96b1808950c"
   }
 }
