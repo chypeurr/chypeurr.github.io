@@ -1,14 +1,14 @@
 {
-  "version": "0.30.0",
+  "version": "0.30.1",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Marionnette (épingles) : effet à ajouter sur n'importe quel clip (image, vidéo, forme, texte). « Poser des\n  épingles », on clique sur l'image (8 au plus), puis on tire une épingle dans l'aperçu : l'image se plie autour,\n  les autres épingles retiennent (bras, cheveux, mascotte qui respire, drapeau…). « Image clé » enregistre la pose\n  pour l'animer ; les épingles suivent le clip quand il bouge ; raideur réglable ; « Remettre droit ».\n- Mots en valeur (Inspecteur d'un texte) : on clique un ou plusieurs mots puis Couleur, Surligner ou Barrer ;\n  « Apparaît ici » fait apparaître l'effet à la tête de lecture (le mot s'allume, le surlignage s'étale, le trait se\n  trace).\n- Fonds animés (Générateurs) : grille qui défile (à plat ou en sol qui fuit vers l'horizon), particules\n  lumineuses qui flottent, confettis qui tombent ; couleur, fond, quantité, vitesse et taille réglables.",
-    "en": "Kakapoted Studio 0.30.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Transitions en lecture : quand le plan suivant commence au tout début de son fichier (ou que le plan précédent\n  va jusqu'au bout du sien), l'aperçu ne fait plus d'allers-retours entre deux images pendant le fondu : le plan reste\n  figé sur sa première (ou dernière) image tant qu'il n'a pas commencé, puis démarre normalement.\n- Mode avant / après bien visible : quand l'aperçu masque les effets et les transitions (bouton « Comparer avant /\n  après »), un bandeau le dit en bas de l'image ; un clic les remet. La pipette de l'espace Couleur abandonnée\n  (Échap ou changement d'espace) ne laisse plus ce mode allumé par erreur.",
+    "en": "Kakapoted Studio 0.30.1 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.0-Setup-x64.exe",
-    "size": 84742260,
-    "sha256": "c96bccbd9d50ad1ee7e9f707bb0b0a68f8d3a096929d7b9cc594fc97dd49f8b1",
-    "sig": "adc499f0ad1194d92192bb9caeb8aa25445872901a6d84c7a9f81d396f68b8d097d9ba64de6d914ba4c91aabc926931067586031a82ee64078ab361332ffba0a"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.1-Setup-x64.exe",
+    "size": 84756925,
+    "sha256": "720f2052f9310b718a40217a12167f775bb601d56eb1a0abf354d080725af853",
+    "sig": "0b1b4043906e9db7cffa9f9b2f7e66660b5650f3845cf5c2d09d3a0c0c1302880a1f5baf79ed9cc3eff11aa4ea175376e3c96a3d0070239dc917978da1c26e01"
   }
 }
