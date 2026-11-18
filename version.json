@@ -1,14 +1,14 @@
 {
-  "version": "0.30.1",
+  "version": "0.30.2",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Transitions en lecture : quand le plan suivant commence au tout début de son fichier (ou que le plan précédent\n  va jusqu'au bout du sien), l'aperçu ne fait plus d'allers-retours entre deux images pendant le fondu : le plan reste\n  figé sur sa première (ou dernière) image tant qu'il n'a pas commencé, puis démarre normalement.\n- Mode avant / après bien visible : quand l'aperçu masque les effets et les transitions (bouton « Comparer avant /\n  après »), un bandeau le dit en bas de l'image ; un clic les remet. La pipette de l'espace Couleur abandonnée\n  (Échap ou changement d'espace) ne laisse plus ce mode allumé par erreur.",
-    "en": "Kakapoted Studio 0.30.1 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Barre de titre : on peut attraper la fenêtre partout sur la barre du haut pour la déplacer (logo, titre, espaces\n  entre les menus et les boutons), et le double-clic l'agrandit / la restaure. Avant, certains endroits ne\n  répondaient pas.",
+    "en": "Kakapoted Studio 0.30.2 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.1-Setup-x64.exe",
-    "size": 84756925,
-    "sha256": "720f2052f9310b718a40217a12167f775bb601d56eb1a0abf354d080725af853",
-    "sig": "0b1b4043906e9db7cffa9f9b2f7e66660b5650f3845cf5c2d09d3a0c0c1302880a1f5baf79ed9cc3eff11aa4ea175376e3c96a3d0070239dc917978da1c26e01"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.2-Setup-x64.exe",
+    "size": 84780585,
+    "sha256": "d0a62beb4ee4f62f07aa9fdd6d3fa37f2eb5f7d7f919aea7350d6a3d3e9f44f9",
+    "sig": "287be1eb066407a4fc8012a08009c98cbbb1ec97e4d9249e036648c5d1757563c433f96911b988b1e838f43f3fa069d2dd98c4c6c3a945cc31c103089211fd08"
   }
 }
