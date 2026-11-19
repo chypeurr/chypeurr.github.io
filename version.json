@@ -1,14 +1,14 @@
 {
-  "version": "0.30.2",
+  "version": "0.30.3",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Barre de titre : on peut attraper la fenêtre partout sur la barre du haut pour la déplacer (logo, titre, espaces\n  entre les menus et les boutons), et le double-clic l'agrandit / la restaure. Avant, certains endroits ne\n  répondaient pas.",
-    "en": "Kakapoted Studio 0.30.2 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Détourage IA : il ne reste plus bloqué sur « Chargement du modèle ». Sans nouvelle du calcul pendant 3 minutes,\n  le logiciel arrête et réessaie tout seul (autre version du modèle, puis processeur sur un seul cœur) ; si rien ne\n  marche, un message clair explique quoi faire. Chaque étape du chargement est notée dans le journal (diagnostic).\n- Enlever les images clés (Inspecteur, section Transformation) : enlève toutes les animations de l'objet (position,\n  taille, opacité, effets…) en le gardant tel qu'il est à la tête de lecture ; la rampe de vitesse est gardée. Ctrl+Z\n  les remet.\n- Plus d'animation fantôme : les images clés restées hors d'un clip après l'avoir raccourci (invisibles) ne\n  transforment plus un simple déplacement en animation ; elles sont retirées au premier changement.",
+    "en": "Kakapoted Studio 0.30.3 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.2-Setup-x64.exe",
-    "size": 84780585,
-    "sha256": "d0a62beb4ee4f62f07aa9fdd6d3fa37f2eb5f7d7f919aea7350d6a3d3e9f44f9",
-    "sig": "287be1eb066407a4fc8012a08009c98cbbb1ec97e4d9249e036648c5d1757563c433f96911b988b1e838f43f3fa069d2dd98c4c6c3a945cc31c103089211fd08"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.3-Setup-x64.exe",
+    "size": 84784173,
+    "sha256": "2db56d4ce3cb8456acf0d0e0ad87ed6595a8ebf106782eb9946183577c3d7bf3",
+    "sig": "0e0ff7c551bd4b70c6615af34052715490af203228196517afc9d28091264d6321fdb34a3b5584b27c76b208b73070c5d107be954f5c47e5ec58d4bfa8ebbc02"
   }
 }
