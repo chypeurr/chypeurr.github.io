@@ -1,14 +1,14 @@
 {
-  "version": "0.30.3",
+  "version": "0.31.0",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Détourage IA : il ne reste plus bloqué sur « Chargement du modèle ». Sans nouvelle du calcul pendant 3 minutes,\n  le logiciel arrête et réessaie tout seul (autre version du modèle, puis processeur sur un seul cœur) ; si rien ne\n  marche, un message clair explique quoi faire. Chaque étape du chargement est notée dans le journal (diagnostic).\n- Enlever les images clés (Inspecteur, section Transformation) : enlève toutes les animations de l'objet (position,\n  taille, opacité, effets…) en le gardant tel qu'il est à la tête de lecture ; la rampe de vitesse est gardée. Ctrl+Z\n  les remet.\n- Plus d'animation fantôme : les images clés restées hors d'un clip après l'avoir raccourci (invisibles) ne\n  transforment plus un simple déplacement en animation ; elles sont retirées au premier changement.",
-    "en": "Kakapoted Studio 0.30.3 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Corriger plusieurs couleurs (espace Couleur) : « Autre couleur » ajoute une couleur à corriger en plus (ex. le ciel\n  et la peau). Chaque couleur a son onglet (« Couleur 1 », « Couleur 2 »…) avec sa pipette et ses réglages ; la\n  corbeille retire la couleur affichée.\n- Nouvelle piste en glissant : soulever un clip vidéo au-dessus de la piste du haut, ou descendre un son sous la\n  dernière piste audio, crée une nouvelle piste à cet endroit (un trait « + Nouvelle piste » l'annonce pendant le geste).\n- Effacer une image clé dans la timeline : tenir un losange (clic maintenu) et appuyer sur Suppr (ou Retour arrière)\n  efface les images clés de cet instant, sans supprimer le clip.",
+    "en": "Kakapoted Studio 0.31.0 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.30.3-Setup-x64.exe",
-    "size": 84784173,
-    "sha256": "2db56d4ce3cb8456acf0d0e0ad87ed6595a8ebf106782eb9946183577c3d7bf3",
-    "sig": "0e0ff7c551bd4b70c6615af34052715490af203228196517afc9d28091264d6321fdb34a3b5584b27c76b208b73070c5d107be954f5c47e5ec58d4bfa8ebbc02"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.31.0-Setup-x64.exe",
+    "size": 84805084,
+    "sha256": "2f64f88c3d1dd8c54189da5479964ddffc9d37c2b86293e55cbf6fc5ccb12b18",
+    "sig": "25e3ad4d9ecd45f86006479876df5bebdb27cb6673eba661f0f0031aad307b80055b149612441d15f06a0b9f6dbb3194895b0e8d9f9207d9f013594739c40f0a"
   }
 }
