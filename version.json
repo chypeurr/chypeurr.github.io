@@ -1,14 +1,14 @@
 {
-  "version": "0.31.0",
+  "version": "0.31.1",
   "url": "https://chypeurr.github.io",
   "notes": {
-    "fr": "- Corriger plusieurs couleurs (espace Couleur) : « Autre couleur » ajoute une couleur à corriger en plus (ex. le ciel\n  et la peau). Chaque couleur a son onglet (« Couleur 1 », « Couleur 2 »…) avec sa pipette et ses réglages ; la\n  corbeille retire la couleur affichée.\n- Nouvelle piste en glissant : soulever un clip vidéo au-dessus de la piste du haut, ou descendre un son sous la\n  dernière piste audio, crée une nouvelle piste à cet endroit (un trait « + Nouvelle piste » l'annonce pendant le geste).\n- Effacer une image clé dans la timeline : tenir un losange (clic maintenu) et appuyer sur Suppr (ou Retour arrière)\n  efface les images clés de cet instant, sans supprimer le clip.",
-    "en": "Kakapoted Studio 0.31.0 is available. See what's new and download it on chypeurr.github.io."
+    "fr": "- Couleurs déjà réglées gardées : choisir une nouvelle couleur à la pipette alors que la couleur affichée est déjà\n  réglée ajoute une nouvelle couleur au lieu de remplacer la précédente. Pendant qu'on vise avec la pipette, l'aperçu\n  garde les corrections (avant, elles disparaissaient le temps du choix).\n- Choisir plus précisément : la sélection d'une couleur a maintenant la saturation minimale (ignorer les gris) et la\n  plage de luminosité (seulement les tons foncés ou clairs), en plus de la largeur de teinte et de la douceur.\n- « Changer en » : on choisit directement la couleur à obtenir ; teinte, saturation et luminosité se règlent toutes\n  seules pour y arriver (et restent ajustables).",
+    "en": "Kakapoted Studio 0.31.1 is available. See what's new and download it on chypeurr.github.io."
   },
   "installer": {
-    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.31.0-Setup-x64.exe",
-    "size": 84805084,
-    "sha256": "2f64f88c3d1dd8c54189da5479964ddffc9d37c2b86293e55cbf6fc5ccb12b18",
-    "sig": "25e3ad4d9ecd45f86006479876df5bebdb27cb6673eba661f0f0031aad307b80055b149612441d15f06a0b9f6dbb3194895b0e8d9f9207d9f013594739c40f0a"
+    "url": "https://chypeurr.github.io/telecharger/Kakapoted-Studio-0.31.1-Setup-x64.exe",
+    "size": 84842216,
+    "sha256": "1cd684085a4ff0781ec316905d363a530b90206b7b7b36b9923bff6fc52d2bd0",
+    "sig": "e92984855c279cad28be764d7ecbcdea43829421505302abaaf1c432b2f0e5f6361c84350d2595ad35944f27e89165ecf5be337258b2ce7a865503fc09130b0a"
   }
 }
